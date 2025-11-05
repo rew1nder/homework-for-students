@@ -5,3 +5,6 @@
 */
 
 const numbers = [1, 2, 2, 3, 4, 4];
+//SOLUTION
+const sum = numbers.reduce((acc, n) => acc + n, 0);
+console.log(sum);

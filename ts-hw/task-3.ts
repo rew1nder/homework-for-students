@@ -4,6 +4,12 @@
     Створи інтерфейс Car і типізуй цей масив.
 */
 
+//SOLUTION
+interface Car {
+    name: string;
+    price: number;
+}
+
 const cars = [
     { name: "BMW", price: 85000 },
     { name: "Porsche", price: 130000 },

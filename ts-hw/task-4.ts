@@ -3,6 +3,11 @@
     Типізувати функцію add, яка приймає два числа і повертає число.
 */
 
-function add(a, b) {
+// function add(a, b) {
+//     return a + b;
+// }
+
+//SOLUTION
+function addNumbers(a: number, b: number): number {
     return a + b;
 }

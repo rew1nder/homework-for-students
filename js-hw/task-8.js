@@ -6,3 +6,13 @@
 */
 
 const num = 5;
+
+//SOLUTION
+
+if (num > 0) {
+    console.log("Додатнє");
+} else if (num < 0) {
+    console.log("Від’ємне");
+} else {
+    console.log("Нуль");
+}
