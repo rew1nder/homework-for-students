@@ -9,8 +9,7 @@ interface User {
     age: number;
 }
 
-const user = {
+const user: User = {
     name: "Іван",
     age: 25
 };
-
